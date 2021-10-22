@@ -1,0 +1,30 @@
+
+main{
+    background-color: rgba(252, 253, 253, 0.925);
+    margin: 50px auto 50px auto;
+    padding: 50px;
+    max-width: 960px;
+    border-radius: 50px;
+}
+
+img{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    display: block;
+    /* opacity: 0.5; deixa tranaparente a 
+    position: relative; */
+}
+header{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: rgb(231, 53, 21);
+    font-weight: bold;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(235, 200, 3, 0.13);
+}
+h2{
+    font-size: 15px;
+}
