@@ -16,10 +16,28 @@ main {
     border-radius: 30px;
 }
 
-img {
+.destaque {
     width: 100%;
     max-width: 800px;
     margin: 0 auto 0 auto;
     display: block;
     position: relative;
+}
+
+
+/* 
+960px de largura,
+Centralizado,
+Padding de 20px
+ícones centralizados (text-align: center) */
+
+footer img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+footer {
+    width: 960 px;
+    text-align: center;
+    margin: 0 auto 50px auto;
 }
