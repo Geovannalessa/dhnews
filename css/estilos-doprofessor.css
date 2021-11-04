@@ -1,10 +1,12 @@
 body {
-    background-color: brown;
+    background-color: rgba(172, 16, 16, 0.664);
+    font-family: 'Rajdhani';
 }
 
 header {
-    color: brown;
+    color: rgb(211, 17, 17);
     font-size: 44px;
+    font-weight: bold
 }
 
 main {
@@ -16,9 +18,9 @@ main {
     border-radius: 30px;
 }
 
-.destaque {
+.destaque-foto {
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto 0 auto;
     display: block;
     position: relative;
@@ -37,7 +39,20 @@ footer img {
 }
 
 footer {
-    width: 960 px;
+    width: 960px;
     text-align: center;
     margin: 0 auto 50px auto;
 }
+
+@font-face {
+    font-family: 'Rajdhani';
+    src: url(Rajdhani/Rajdhani-Medium.ttf);
+    font-weight: normal;
+}
+
+ol {
+    line-height: 13px;
+}
+
+
+/* https: //css-tricks.com/snippets/css/a-guide-to-flexbox/ */
